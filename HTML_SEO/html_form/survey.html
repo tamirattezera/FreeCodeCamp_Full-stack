@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Share your insights to help us design smarter, more effective technology solutions."
+    />
+    <title>Tech Insight Survey | MiraX</title>
+  </head>
+  <body>
+    <header>
+      <h1>Help Us Build Smarter Tech Solutions</h1>
+      <p>
+        Your insights directly influence the products and systems we design.
+        This short survey takes less than three minutes to complete.
+      </p>
+      <p>
+        Your responses are confidential and used solely to improve our
+        solutions.
+      </p>
+    </header>
+    <main>
+      <section aria-labelledby="survey-intro">
+        <h2 id="survey-intro">Tech Insight Survey</h2>
+      </section>
+      <form action="#" method="post" novalidate>
+        <fieldset>
+          <legend>About You</legend>
+          <p><strong>Which option best describes your current role?</strong></p>
+          <label
+            ><input
+              type="radio"
+              name="user_role"
+              value="founder"
+              required
+            />Founder/Business Owner</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="user_role"
+              value="developer"
+            />Developer/Engineer</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="user_role"
+              value="student"
+            />Student/Learner</label
+          ><br />
+          <label
+            ><input type="radio" name="user_role" value="manager" />manager /
+            Team Lead</label
+          ><br />
+          <p>
+            <strong>Which stage best reflects where you are right now?</strong>
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="current_stage"
+              value="building"
+            />Learning/Exploring</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="current_stage"
+              value="learning"
+            />Building a product</label
+          ><br />
+          <label
+            ><input type="radio" name="current_stage" value="scaling" />Scaling
+            a solution</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="current_stage"
+              value="optimizing"
+            />Optimizing systems</label
+          ><br />
+        </fieldset>
+        <fieldset>
+          <legend>Your current challenges</legend>
+          <p>
+            <strong>
+              How do you currently use technology to address your main
+              challenges?</strong
+            >
+          </p>
+          <label
+            ><input type="radio" name="tech_usage_level" value="manual" />Mostly
+            manual tools</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="tech_usage_level"
+              value="basic_software"
+            />Basic software solutions</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="tech_usage_level"
+              value="custom_systems"
+            />Custom-built systems</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="tech_usage_level"
+              value="ai_automation"
+            />AI-powered tools / automation</label
+          ><br />
+          <p>
+            <strong>
+              What is the biggest challenge you are facing right now that
+              technology could help solve?</strong
+            >
+          </p>
+          <label for="primary_challenge">Your challenge</label><br />
+
+          <textarea
+            name="primary_challenge"
+            id="primary_challenge"
+            rows="4"
+            placeholder="Describe your challenge in your own words..."
+          ></textarea>
+          <p>
+            <strong>
+              Which area would you most like to improve over the next three
+              months?</strong
+            >
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="priority_focus"
+              value="productivity"
+            />Productivity</label
+          ><br />
+          <label
+            ><input type="radio" name="priority_focus" value="revenue" />Revenue
+            growth</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="priority_focus"
+              value="automation"
+            />Automation & efficiency</label
+          ><br />
+          <label
+            ><input type="radio" name="priority_focus" value="skills" />Skills
+            development</label
+          ><br />
+          <label
+            ><input type="radio" name="priority_focus" value="cost" />Cost
+            reduction</label
+          ><br />
+        </fieldset>
+        <fieldset>
+          <legend>Next steps</legend>
+          <p>
+            <strong>
+              How actively are you looking for a technology solution at this
+              moment?</strong
+            >
+          </p>
+          <label for="solution_intent_level"
+            >1 = Just exploring &nbsp;;&nbsp; 5 = Ready to implement</label
+          ><br />
+          <input
+            type="range"
+            name="solution_intent_level"
+            id="solution_intent_level"
+            min="1"
+            max="1"
+            step="1"
+          />
+          <p>
+            <strong
+              >Would you like to be informed when we build solutions aligned
+              with your needs?</strong
+            >
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="contact_permission"
+              value="yes"
+            />Yes</label
+          ><br />
+          <label
+            ><input
+              type="radio"
+              name="contact_permission"
+              value="no"
+            />No</label
+          ><br />
+          <label for="contact_email">Email(optional)</label><br />
+          <input
+            type="email"
+            name="contact_email"
+            id="contact_email"
+            placeholder="you@example.com"
+          />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

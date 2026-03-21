@@ -13,6 +13,16 @@ This project is a collection of:
 
 It reflects my growth as a **front-end developer** focused on clean structure, styling, and real-world design.
 
+## Purpose
+
+The purpose of this portfolio is to:
+
+- Practice responsive web design and semantic HTML
+- Build real-world UI components like business cards and cafe menus
+- Improve accessibility and SEO knowledge
+- Organize a structured learning path for front-end development
+- Showcase projects for recruiters or collaborators
+
 ## Projects
 
 ### Business Card
@@ -117,3 +127,34 @@ Responsive_Web_Design/
 ├── images/ # Images used in projects
 │ └── tame963love.jpg
 └── js/ # JavaScript files (currently empty)
+
+## 🧠 What I'm Learning
+
+- Writing semantic, clean HTML
+- Structuring real-world pages
+- Styling with CSS efficiently
+- Building responsive and reusable UI components
+- Accessibility best practices
+- SEO fundamentals
+- Preparing to integrate **JavaScript and backend frameworks**
+
+## 🌟 Vision
+
+My vision is to become an **AI-powered full-stack developer**, mastering:
+
+- Front-end frameworks and responsive UI
+- Back-end frameworks (Django, Flask, Node.js)
+- Database design & optimization
+- APIs and automation
+- AI/ML integration into full-stack applications
+- Building innovative, real-world projects that solve problems
+
+This portfolio is a **first step** toward that vision.
+
+## Author
+
+**Tamirat Tezera**
+
+## ⭐ Inspiration
+
+Guided by hands-on learning and continuous improvement through real projects.

@@ -1,0 +1,132 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+.round-btn {
+  font-size: 1rem;
+  font-family: "Segoe UI", sans-serif;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+  background-color: #0d32eb;
+  color: white;
+  border-radius: 50px;
+  padding: 0.6rem 1.6rem;
+}
+
+.round-btn:hover {
+  background-color: #27ae60;
+  transform: translate(-2px);
+} */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.myheader {
+  background-color: #4caf50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.box {
+  flex: 1;
+  min-width: 200px;
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.box:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .box {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+figure img {
+  border: 4px solid red;
+}
+
+.inline-block-element {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+
+.element1 {
+  background-color: lightblue;
+}
+
+.element2 {
+  background-color: lightgreen;
+}
+p {
+  padding: 10px 20px 30px 40px;
+  margin: 10px 20px 30px 40px;
+  border: 2px solid black;
+  color: blue;
+}

@@ -1,0 +1,87 @@
+body {
+  background-color: #1e3a8a;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+}
+.business-card {
+  width: 320px;
+  background-color: #f77f00;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #8b0000;
+}
+header h1 {
+  font-size: 1rem;
+  margin: 0;
+  color: #333333;
+}
+header p {
+  font-size: 1rem;
+  margin: 5px 0 15px 0;
+  font-style: italic;
+}
+section#identity p {
+  font-size: 0.95rem;
+  color: #444444;
+  margin-bottom: 20px;
+}
+.contact a {
+  color: #8b0000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.contact a:hover,
+.contact a:focus {
+  color: #ff4500;
+}
+.portfolio-btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #8b0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #ff4500;
+  transform: translateY(-2px);
+}
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.social a:hover,
+.social a:focus {
+  color: #ff4500;
+}
+.social h2,
+#identity h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333333;
+}

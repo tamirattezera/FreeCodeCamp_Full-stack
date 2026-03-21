@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Checkout</h1>
+    </header>
+
+    <main>
+      <!-- CART SECTION -->
+      <section aria-labelledby="cart-heading">
+        <h2 id="cart-heading">Your Cart</h2>
+
+        <article>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+            alt="Rubik's Cube 3x3 puzzle in mixed colors"
+          />
+
+          <h3>Rubik’s Cube</h3>
+          <p>3x3 classic puzzle cube</p>
+          <p>Price: $10.00</p>
+          <p>Quantity: 1</p>
+        </article>
+
+        <p><strong>Total: $10.00</strong></p>
+      </section>
+
+      <!-- PAYMENT SECTION -->
+      <section aria-labelledby="payment-heading">
+        <h2 id="payment-heading">Payment Information</h2>
+
+        <form>
+          <!-- Customer Info -->
+          <fieldset>
+            <legend>Customer Information</legend>
+
+            <label for="full-name">
+              Full Name
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="full-name" name="full-name" required />
+
+            <label for="email">
+              Email Address
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              aria-describedby="email-help"
+            />
+
+            <p id="email-help">We’ll send your receipt to this email.</p>
+          </fieldset>
+
+          <!-- Shipping -->
+          <fieldset>
+            <legend>Shipping Address</legend>
+
+            <label for="street">
+              Street Address
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="street" name="street" required />
+
+            <label for="city">
+              City
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="city" name="city" required />
+
+            <label for="postal">
+              Postal Code
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="postal" name="postal" required />
+          </fieldset>
+
+          <!-- Payment -->
+          <fieldset>
+            <legend>Card Details</legend>
+
+            <label for="card-name">
+              Name on Card
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="card-name" name="card-name" required />
+
+            <label for="card-number">
+              Card Number
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              type="text"
+              id="card-number"
+              name="card-number"
+              required
+              inputmode="numeric"
+              aria-describedby="card-number-help"
+            />
+
+            <p id="card-number-help">
+              Enter a 16-digit card number without spaces.
+            </p>
+
+            <label for="expiry">
+              Expiry Date
+              <span aria-hidden="true">*</span>
+            </label>
+            <input type="month" id="expiry" name="expiry" required />
+
+            <label for="cvv">
+              CVV
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              type="password"
+              id="cvv"
+              name="cvv"
+              required
+              aria-describedby="cvv-help"
+            />
+
+            <p id="cvv-help">3-digit code on the back of your card.</p>
+          </fieldset>
+
+          <!-- Trust Message -->
+          <p>Your payment information is secure and encrypted.</p>
+
+          <button type="submit">Place Order</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 My Store</p>
+    </footer>
+  </body>
+</html>

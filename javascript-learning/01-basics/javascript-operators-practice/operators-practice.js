@@ -253,3 +253,5 @@ if (money > 100) {
 } else {
   console.log("Not enough money");
 }
+
+

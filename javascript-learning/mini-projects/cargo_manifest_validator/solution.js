@@ -55,3 +55,45 @@ function validateManifest(manifest) {
   return errors;
 }
 
+function processManifest(manifest) {
+  const errors = validateManifest(manifest);
+
+  // Check whether errors object is empty
+  if (Object.keys(errors).length === 0) {
+    console.log(`Validation success: ${manifest.containerId}`);
+
+    const normalizedManifest = normalizeUnits(manifest);
+
+    console.log(`Total weight: ${normalizedManifest.weight} kg`);
+  } else {
+    console.log(`Validation error: ${manifest.containerId}`);
+
+    console.log(errors);
+  }
+}
+
+// ========================================
+// Demo Tests
+// ========================================
+
+// Valid manifest
+processManifest({
+  containerId: 55,
+  destination: "Carmel",
+  weight: 400,
+  unit: "lb",
+  hazmat: false,
+});
+
+// Invalid manifest
+processManifest({
+  containerId: -88,
+  destination: "Soledad",
+  weight: NaN,
+});
+
+// Missing fields
+processManifest({
+  destination: "Watsonville",
+  hazmat: true,
+});

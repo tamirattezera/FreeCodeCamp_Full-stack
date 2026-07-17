@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #333;
+
+  line-height: 1.6;
+}
+
+/* Navigation */
+
+#navbar {
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  width: 280px;
+
+  height: 100vh;
+
+  background: #111827;
+
+  color: white;
+
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.8rem;
+
+  padding: 25px;
+
+  font-weight: bold;
+}
+
+.nav-link {
+  display: block;
+
+  padding: 15px 25px;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-top: 1px solid #374151;
+}
+
+.nav-link:hover {
+  background: #2563eb;
+}
+
+/* Main Documentation */
+
+#main-doc {
+  margin-left: 300px;
+
+  padding: 40px;
+
+  max-width: 1000px;
+}
+
+.main-section {
+  margin-bottom: 50px;
+}
+
+.main-section header {
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  color: #2563eb;
+}
+
+code {
+  display: block;
+
+  background: #f1f5f9;
+
+  padding: 20px;
+
+  border-radius: 8px;
+
+  margin: 20px 0;
+
+  font-family: "Courier New", monospace;
+}
+
+li {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+
+    padding: 20px;
+  }
+}

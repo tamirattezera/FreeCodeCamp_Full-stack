@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin:0;
+
+    font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    color:#333;
+
+}
+
+
+
+.header {
+
+    text-align:center;
+
+    color:white;
+
+    padding:40px 20px;
+
+}
+
+
+
+.header h1 {
+
+    font-size:2.5rem;
+
+}
+
+
+
+.header p {
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:1.1rem;
+
+}
+
+
+
+
+
+main {
+
+    width:90%;
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+
+
+
+
+#survey-form {
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+
+
+.form-card {
+
+    margin-bottom:30px;
+
+}
+
+
+
+h2 {
+
+    color:#667eea;
+
+    border-bottom:
+    2px solid #eee;
+
+    padding-bottom:10px;
+
+}
+
+
+
+label {
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+
+
+input,
+select,
+textarea {
+
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:
+    1px solid #ccc;
+
+    font-size:1rem;
+
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+
+    width:auto;
+
+    margin-right:8px;
+
+}
+
+
+
+
+button {
+
+
+    width:100%;
+
+    padding:15px;
+
+
+    background:#667eea;
+
+    color:white;
+
+    border:none;
+
+
+    border-radius:8px;
+
+
+    font-size:1.1rem;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+}
+
+
+
+button:hover {
+
+
+    background:#764ba2;
+
+}
+
+
+
+
+
+footer {
+
+
+    text-align:center;
+
+
+    color:white;
+
+
+    padding:30px;
+
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+    .header h1 {
+
+        font-size:2rem;
+
+    }
+
+
+    #survey-form {
+
+        padding:20px;
+
+    }
+
+
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        AI Developer Community Survey
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <h1 id="title">
+        AI Developer Community Survey
+    </h1>
+
+    <p id="description">
+        Help us understand how developers learn,
+        build software, and use artificial intelligence.
+    </p>
+
+</header>
+
+
+
+<main>
+
+
+<form id="survey-form">
+
+
+<section class="form-card">
+
+
+<h2>
+Personal Information
+</h2>
+
+
+<label id="name-label">
+Full Name
+</label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your name"
+required
+>
+
+
+
+<label id="email-label">
+Email Address
+</label>
+
+<input
+type="email"
+id="email"
+placeholder="Enter your email"
+required
+>
+
+
+
+<label id="number-label">
+Age
+</label>
+
+<input
+type="number"
+id="number"
+min="10"
+max="100"
+placeholder="Your age"
+>
+
+
+
+</section>
+
+
+
+
+<section class="form-card">
+
+
+<h2>
+Developer Background
+</h2>
+
+
+<label>
+Current Experience Level
+</label>
+
+
+<select id="dropdown">
+
+
+<option>
+Beginner
+</option>
+
+<option>
+Intermediate
+</option>
+
+<option>
+Advanced
+</option>
+
+<option>
+Professional Developer
+</option>
+
+
+</select>
+
+
+
+<p>
+Which role best describes you?
+</p>
+
+
+<label>
+<input 
+type="radio"
+name="role"
+value="student">
+Student
+</label>
+
+
+<label>
+<input
+type="radio"
+name="role"
+value="developer">
+Developer
+</label>
+
+
+<label>
+<input
+type="radio"
+name="role"
+value="engineer">
+Software Engineer
+</label>
+
+
+
+</section>
+
+
+
+
+
+<section class="form-card">
+
+
+<h2>
+Technology Interests
+</h2>
+
+
+<p>
+Which technologies are you learning?
+</p>
+
+
+<label>
+<input 
+type="checkbox"
+value="javascript">
+JavaScript
+</label>
+
+
+<label>
+<input
+type="checkbox"
+value="python">
+Python
+</label>
+
+
+<label>
+<input
+type="checkbox"
+value="django">
+Django
+</label>
+
+
+<label>
+<input
+type="checkbox"
+value="ai">
+Artificial Intelligence
+</label>
+
+
+<label>
+<input
+type="checkbox"
+value="cloud">
+Cloud Computing
+</label>
+
+
+
+</section>
+
+
+
+
+
+<section class="form-card">
+
+
+<h2>
+AI & Future Development
+</h2>
+
+
+<label>
+How do you currently use AI tools?
+</label>
+
+
+<select>
+
+
+<option>
+Learning and studying
+</option>
+
+
+<option>
+Coding assistance
+</option>
+
+
+<option>
+Automation
+</option>
+
+
+<option>
+Building AI products
+</option>
+
+
+</select>
+
+
+
+
+<label>
+Share your biggest learning challenge:
+</label>
+
+
+<textarea
+id="comments"
+rows="6"
+placeholder="Write your thoughts..."
+></textarea>
+
+
+
+</section>
+
+
+
+
+<button
+id="submit"
+type="submit">
+
+Submit Survey
+
+</button>
+
+
+
+</form>
+
+
+</main>
+
+
+<footer>
+
+<p>
+Built with HTML5 and CSS3
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>

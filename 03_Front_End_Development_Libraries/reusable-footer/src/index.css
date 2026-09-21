@@ -1,0 +1,8 @@
+css
+html {
+  min-width: 320px;
+}
+
+body {
+  min-height: 100vh;
+}

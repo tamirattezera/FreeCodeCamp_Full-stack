@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function FruitSearch() {
+  const [query, setQuery] = useState("");
+
   return (
     <main className="min-h-screen bg-zinc-950 px-4 py-12 text-white">
       <div className="mx-auto max-w-3xl">

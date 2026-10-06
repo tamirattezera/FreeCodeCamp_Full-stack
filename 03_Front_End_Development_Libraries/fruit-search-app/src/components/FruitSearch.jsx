@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function FruitSearch() {
   const [query, setQuery] = useState("");
+  const [results, setResults] = useState([]);
 
   return (
     <main className="min-h-screen bg-zinc-950 px-4 py-12 text-white">
@@ -32,15 +33,19 @@ function FruitSearch() {
             <input
               id="search-input"
               type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
               placeholder="Try apple, pear, mango..."
               className="w-full rounded-2xl border border-zinc-700 bg-zinc-950 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-emerald-400"
             />
+
+            <p className="mt-3 text-xs text-zinc-600">
+              Current query: {query || "empty"}
+            </p>
           </form>
 
-          <div className="mt-6 rounded-2xl border border-zinc-800 bg-zinc-950 p-5">
-            <p className="text-sm text-zinc-500">
-              Start typing to search for fruits.
-            </p>
+          <div className="mt-6">
+            <p className="text-sm text-zinc-500">Results: {results.length}</p>
           </div>
         </section>
       </div>

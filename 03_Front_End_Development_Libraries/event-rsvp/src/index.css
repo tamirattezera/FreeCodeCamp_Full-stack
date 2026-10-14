@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-sky-100 text-slate-900;
+  }
+}

@@ -14,8 +14,6 @@ Learn:
 
 Run:
 
-node 01_promise-basics.js
-
 =========================================
 */
 
@@ -32,7 +30,7 @@ const myPromise = new Promise((resolve, reject) => {
     reject("Something failed");
   }
 });
-
+console.log(myPromise)
 // ========================================
 // 2. Consuming Promise
 // ========================================
@@ -107,7 +105,7 @@ function fetchUser() {
       };
 
       resolve(user);
-    }, 1000);
+    }, 2000);
   });
 }
 
